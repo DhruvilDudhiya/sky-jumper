@@ -17,7 +17,7 @@ window.addEventListener('load', function () {
 				gravity: {
 					y: 1200,
 				},
-				debug : false,
+				debug : true,
 			}
 		},
 	});

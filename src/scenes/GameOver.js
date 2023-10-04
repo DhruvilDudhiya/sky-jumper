@@ -49,25 +49,23 @@ class GameOver extends Phaser.Scene {
 
 		// score_gameover
 		const score_gameover = this.add.text(-14.252358255172453, 20.33687710330048, "", {});
+		score_gameover.scaleX = 1.1;
+		score_gameover.scaleY = 1.1;
 		score_gameover.setOrigin(0.5, 0.5);
 		score_gameover.text = "16";
 		score_gameover.setStyle({ "fontFamily": "angerpoiselampshade", "fontSize": "50px" });
 		container_popupAnimation.add(score_gameover);
 
-		this.container_popUP = container_popUP;
-		this.container_popupAnimation = container_popupAnimation;
 		this.you_win = you_win;
 		this.exit = exit;
 		this.replay = replay;
 		this.score_gameover = score_gameover;
+		this.container_popupAnimation = container_popupAnimation;
+		this.container_popUP = container_popUP;
 
 		this.events.emit("scene-awake");
 	}
 
-	/** @type {Phaser.GameObjects.Container} */
-	container_popUP;
-	/** @type {Phaser.GameObjects.Container} */
-	container_popupAnimation;
 	/** @type {Phaser.GameObjects.Image} */
 	you_win;
 	/** @type {Phaser.GameObjects.Image} */
@@ -76,6 +74,10 @@ class GameOver extends Phaser.Scene {
 	replay;
 	/** @type {Phaser.GameObjects.Text} */
 	score_gameover;
+	/** @type {Phaser.GameObjects.Container} */
+	container_popupAnimation;
+	/** @type {Phaser.GameObjects.Container} */
+	container_popUP;
 
 	/* START-USER-CODE */
 

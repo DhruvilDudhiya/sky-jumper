@@ -36,8 +36,8 @@ class Preload extends Phaser.Scene {
 
 		// logo1
 		const logo1 = this.add.image(527, 368, "logo1");
-		logo1.scaleX = 1.5;
-		logo1.scaleY = 1.5;
+		logo1.scaleX = 1.2;
+		logo1.scaleY = 1.2;
 
 		this.transparent_bg = transparent_bg;
 

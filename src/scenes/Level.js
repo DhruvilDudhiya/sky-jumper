@@ -90,16 +90,16 @@ class Level extends Phaser.Scene {
 		container_notColleted.add(life_3);
 
 		// scoreContainer
-		const scoreContainer = this.add.container(0, 0);
+		const scoreContainer = this.add.container(272.5216879588149, 99.41042705415889);
 
 		// score_Board_Base
-		const score_Board_Base = this.add.image(283, 100, "score_Board_Base");
+		const score_Board_Base = this.add.image(10.47831204118512, 0.5895729458411125, "score_Board_Base");
 		score_Board_Base.scaleX = 1.7;
 		score_Board_Base.scaleY = 1.7;
 		scoreContainer.add(score_Board_Base);
 
 		// score_txt
-		const score_txt = this.add.text(293, 99, "", {});
+		const score_txt = this.add.text(20.47831204118512, -0.41042705415888747, "", {});
 		score_txt.scaleX = 1.1;
 		score_txt.scaleY = 1.1;
 		score_txt.setOrigin(0.5, 0.5);
@@ -108,7 +108,7 @@ class Level extends Phaser.Scene {
 		scoreContainer.add(score_txt);
 
 		// leaf
-		const leaf = this.add.image(138, 97, "Leaf");
+		const leaf = this.add.image(-134.52168795881488, -2.4104270541588875, "Leaf");
 		leaf.scaleX = 1.7;
 		leaf.scaleY = 1.7;
 		scoreContainer.add(leaf);
@@ -204,7 +204,7 @@ class Level extends Phaser.Scene {
 
 		this.scrollFector()
 
-		
+
 	}
 	scrollFector = () => {
 		this.container_background.setScrollFactor(0);
@@ -261,7 +261,7 @@ class Level extends Phaser.Scene {
 		platform.carrot = carrot;
 	}
 	addStars = (platform) => {
-		let star = this.add.image(- platform.x, platform.y - platform.displayHeight / 2, "star");
+		let star = this.add.image(- platform.x, platform.y - platform.displayHeight / 1, "star");
 		platform.star = star;
 		this.oTweenManager.tweenStarScale(platform.star);
 	}
@@ -281,10 +281,10 @@ class Level extends Phaser.Scene {
 		if (!platform.isHeroOnIt) {
 			this.currentPlatformName = platform.texture.key;
 			if (!this.oGameManager.gameStarted) {
-                this.oGameManager.startGame(); // Start the game when hero lands on the first platform
-                // You can enable player input here
+				this.oGameManager.startGame(); // Start the game when hero lands on the first platform
+				// You can enable player input here
 				this.input.on("pointerdown", this.destroyPlatform, this);
-            }
+			}
 			if (this.currentPlatformName == "p_1") {
 				hero.setTexture("bunny");
 				hero.setScale(1.5, 1.5);
@@ -298,7 +298,7 @@ class Level extends Phaser.Scene {
 					this.updatePlayerLife(playerLife);
 					setTimeout(() => {
 						this.scene.start("Level");
-					}, 600);
+					}, 300);
 				}
 			}
 			if (hero.x < platform.getBounds().left) {
@@ -316,7 +316,7 @@ class Level extends Phaser.Scene {
 					this.updatePlayerLife(playerLife);
 					setTimeout(() => {
 						this.scene.start("Level");
-					}, 600);
+					}, 300);
 				}
 			}
 			if (hero.x > platform.getBounds().right) {
@@ -334,7 +334,7 @@ class Level extends Phaser.Scene {
 					this.updatePlayerLife(playerLife);
 					setTimeout(() => {
 						this.scene.start("Level");
-					}, 600);
+					}, 300);
 				}
 			}
 			platform.isHeroOnIt = true;
@@ -487,16 +487,17 @@ class Level extends Phaser.Scene {
 			}
 		})
 	}
-	tweenAnimer2 = (player)  	=> {
+	tweenAnimer2 = (player) => {
 		this.playerAnim = this.tweens.add({
 			targets: player,
 			scaleX: { from: 1, to: 0.6 },
-			scaleY: { from:1, to: 0.6 },
+			scaleY: { from: 1, to: 0.6 },
 			duration: 500,
 		})
 	}
 
 	updateScore = (score) => {
+		this.oTweenManager.gameObjectTween(this.scoreContainer ,1,1.10);
 		this.score_txt.text = "score : " + score;
 	}
 	updateLevel = () => {
@@ -533,15 +534,20 @@ class Level extends Phaser.Scene {
 					this.platformGroup.remove(platform);
 				}
 			}, this);
-			if (this.platformGroup.getLength() === 6) {
-
-			}
 		}
 		this.platformGroup.getChildren().forEach(function (platform) {
-			if (platform.star) {
-				platform.star.x = platform.x;
-				platform.star.y = platform.y - platform.displayHeight / 1;
+			if (platform.texture.key == "platform1") {
+				if (platform.star) {
+					platform.star.x = platform.x;
+					platform.star.y = platform.y - platform.displayHeight / 1;
+				}
+			}else if(platform.texture.key == "p_1"){
+				if (platform.star) {
+					platform.star.x = platform.x;
+					platform.star.y = platform.y - platform.displayHeight / 2;
+				}
 			}
+
 		}, this);
 		this.platformGroup.getChildren().forEach(function (platform) {
 			if (platform.carrot) {
