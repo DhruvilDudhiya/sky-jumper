@@ -1,0 +1,142 @@
+{
+    "id": "f4ed31d3-da83-49ca-b2fa-265888b811b8",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Splase",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "36605edd-e262-4564-b8e8-af54868bc657",
+            "label": "transparent_bg",
+            "texture": {
+                "key": "transparent-bg"
+            },
+            "x": 551,
+            "y": 962
+        },
+        {
+            "type": "Image",
+            "id": "45f04aa1-01cc-4f74-a33b-983314554243",
+            "label": "logo",
+            "scope": "CLASS",
+            "texture": {
+                "key": "logo"
+            },
+            "x": 527,
+            "y": 368,
+            "scaleX": 1.5,
+            "scaleY": 1.5
+        },
+        {
+            "type": "Image",
+            "id": "3d6d3969-cb16-4407-94c6-113ce8f0a1db",
+            "label": "play_btn",
+            "scope": "CLASS",
+            "texture": {
+                "key": "Play_btn"
+            },
+            "x": 539,
+            "y": 1316,
+            "scaleX": 2,
+            "scaleY": 2
+        },
+        {
+            "type": "Image",
+            "id": "d72223b5-9b1b-4330-84ff-d1d07d4e8a01",
+            "label": "info",
+            "scope": "CLASS",
+            "texture": {
+                "key": "info"
+            },
+            "x": 780,
+            "y": 1530,
+            "scaleX": 2,
+            "scaleY": 2
+        },
+        {
+            "type": "Image",
+            "id": "c0fea648-f424-48f9-9eec-1a1af049a467",
+            "label": "settings",
+            "scope": "CLASS",
+            "texture": {
+                "key": "Settings"
+            },
+            "x": 265,
+            "y": 1530,
+            "scaleX": 2,
+            "scaleY": 2
+        },
+        {
+            "type": "Container",
+            "id": "94c463ae-7bd0-46c1-9942-b04340f2dd39",
+            "label": "container_Settings",
+            "scope": "CLASS",
+            "x": 552,
+            "y": 1227,
+            "scaleX": 0,
+            "scaleY": 0,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "7c3d8ca4-b493-4d01-9835-92fe9353f9df",
+                    "label": "settings_1",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "settings"
+                    },
+                    "x": -15.473185832849481,
+                    "y": -1.221571800213951
+                },
+                {
+                    "type": "Image",
+                    "id": "bf2717f7-d32e-46ef-a5b5-76595f868bc2",
+                    "label": "close",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "Close"
+                    },
+                    "x": 350.5268141671505,
+                    "y": -269.22157180021395,
+                    "scaleX": 2,
+                    "scaleY": 2
+                },
+                {
+                    "type": "Image",
+                    "id": "cbf621d5-2d1a-4ef9-8d04-d0ef4770d485",
+                    "label": "load_2",
+                    "texture": {
+                        "key": "Load-2"
+                    },
+                    "x": -170,
+                    "y": -10,
+                    "scaleX": 0.1,
+                    "originX": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "3fbc1ef7-777d-4f49-9cdf-c88a786505ef",
+                    "label": "music_off",
+                    "texture": {
+                        "key": "music-off"
+                    },
+                    "x": -162,
+                    "y": -12,
+                    "scaleX": 2,
+                    "scaleY": 2
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

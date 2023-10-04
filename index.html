@@ -1,0 +1,66 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Sky Jumper
+	</title>
+
+	<script src="lib/phaser.min.js"></script>
+	<script src="src/components/UserComponent.js"></script>
+	<script src="src/components/PushOnClick.js"></script>
+	<script src="src/components/PreloadText.js"></script>
+	<link rel="icon" type="image/x-icon" href="assets/fevicon.ico">
+	<script src="src/scenes/Preload.js"></script>
+	<script src="src/scenes/Level.js"></script>
+	<script src="src/scenes/Splase.js"></script>
+	<script src="src/scenes/GameOver.js"></script>
+	<script src="src/main.js"></script>
+	<link rel="stylesheet preload" as="font" href="assets/font/boldRegular.ttf" type="font/ttf" crossorigin />
+	<link rel="stylesheet preload" as="font" href="assets/font/angerpoiselampshade.ttf" type="font/ttf" crossorigin />
+
+	<style>
+			@font-face {
+			font-family: 'boldRegular';
+			src: url('assets/font/boldRegular.ttf');
+		}
+			@font-face {
+			font-family: 'angerpoiselampshade';
+			src: url('assets/font/angerpoiselampshade.ttf');
+		}
+		body {
+			background-image: url(assets/Game_Play/background.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+			margin: 0;
+			padding: 0;
+		}
+
+		@media only screen and (min-width: 1420px) {
+			body {
+				background-image: url(assets/Game_Play/background.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center center;
+				margin: 0;
+				padding: 0;
+			}
+		}
+	</style>
+
+</head>
+
+<body>
+	<script>
+		var game;
+		var score = 0;
+		var playerLife = 3;
+		var currentLevel = 1;
+		console.log(playerLife);
+	</script>
+</body>
+
+</html>
