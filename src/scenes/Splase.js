@@ -41,6 +41,8 @@ class Splase extends Phaser.Scene {
 
 		// container_Settings
 		const container_Settings = this.add.container(552, 1227);
+		container_Settings.scaleX = 0;
+		container_Settings.scaleY = 0;
 
 		// settings_1
 		const settings_1 = this.add.image(-15.473185832849481, -1.221571800213951, "settings");

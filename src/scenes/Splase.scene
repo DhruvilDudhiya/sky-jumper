@@ -84,6 +84,8 @@
             "components": [],
             "x": 552,
             "y": 1227,
+            "scaleX": 0,
+            "scaleY": 0,
             "list": [
                 {
                     "type": "Image",
