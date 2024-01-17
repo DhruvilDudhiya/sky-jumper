@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Sky Jumper
+	</title>
+
+	<link rel="stylesheet" href="style.css">
+	<script src="lib/phaser.min.js"></script>
+	<script src="src/components/UserComponent.js"></script>
+	<script src="src/components/PushOnClick.js"></script>
+	<script src="src/components/PreloadText.js"></script>
+	<link rel="icon" type="image/x-icon" href="assets/fevicon.ico">
+	<script src="src/scenes/Preload.js"></script>
+	<script src="src/scenes/Level.js"></script>
+	<script src="src/scenes/Splase.js"></script>
+	<script src="src/scenes/GameOver.js"></script>
+	<script src="src/main.js"></script>
+	<link rel="stylesheet preload" as="font" href="assets/font/boldRegular.ttf" type="font/ttf" crossorigin />
+	<link rel="stylesheet preload" as="font" href="assets/font/angerpoiselampshade.ttf" type="font/ttf" crossorigin />
+
+</head>
+
+<body>
+	<div>
+		<img src="assets/flower.png" class="flower flower1">
+		<img src="assets/flower.png" class="flower flower2">
+		<img src="assets/cloud/cloud1.png" alt="c1" class="cloud1" />
+		<img src="assets/cloud/cloud3.png" alt="c1" class="cloud2" />
+		<img src="assets/cloud/cloud7.png" alt="c1" class="cloud3" />
+	</div>
+
+	<script>
+		var game;
+		var score = 0;
+		var playerLife = 3;
+		var currentLevel = 1;
+		var isSoundOn = true;
+		var isMusicOn = true;
+	</script>
+</body>
+
+</html>

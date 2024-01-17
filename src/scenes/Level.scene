@@ -1,0 +1,252 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "b0007875-b4f3-4198-8090-658f45a5b06f",
+            "label": "container_background",
+            "scope": "CLASS",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "0f8b9f9a-43cd-4c5b-9d13-472d0daf335c",
+                    "label": "transparent_bg",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "transparent-bg"
+                    },
+                    "x": 544,
+                    "y": 962
+                },
+                {
+                    "type": "Image",
+                    "id": "c39d6099-d1fe-4389-ae14-53f65d2d7694",
+                    "label": "life_Boarc_Base",
+                    "components": [],
+                    "texture": {
+                        "key": "Life_Boarc_Base"
+                    },
+                    "x": 917,
+                    "y": 100,
+                    "scaleX": 1.7,
+                    "scaleY": 1.7
+                },
+                {
+                    "type": "Text",
+                    "id": "d6cf5dfd-67fc-4ecb-ab6d-9e91c04fd63d",
+                    "label": "text_life",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 909,
+                    "y": 100,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "3",
+                    "fontFamily": "angerpoiselampshade",
+                    "fontSize": "40px"
+                },
+                {
+                    "type": "Text",
+                    "id": "7ba31119-b7c9-43e7-b8bd-b7a29b571258",
+                    "label": "timer_text",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 540,
+                    "y": 378,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "alpha": 0.3,
+                    "alphaTopLeft": 0.3,
+                    "alphaTopRight": 0.3,
+                    "alphaBottomLeft": 0.3,
+                    "alphaBottomRight": 0.3,
+                    "fontFamily": "angerpoiselampshade",
+                    "fontSize": "500px",
+                    "stroke": "#a28768",
+                    "strokeThickness": 15
+                },
+                {
+                    "type": "Image",
+                    "id": "7144df1a-98e1-4438-8eb8-863bafc39dc7",
+                    "label": "move",
+                    "components": [],
+                    "texture": {
+                        "key": "move"
+                    },
+                    "x": 1002,
+                    "y": 99,
+                    "scaleX": 1.7,
+                    "scaleY": 1.7
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "c792582b-95c1-491d-88cf-6c3aa09ce0f6",
+            "label": "container_collect",
+            "scope": "CLASS",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "f612dac9-5714-4e9f-92fc-66e07f944a3b",
+                    "label": "life_bg_1",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Carrot_Life_Minus"
+                    },
+                    "x": 851,
+                    "y": 211,
+                    "tintFill": true
+                },
+                {
+                    "type": "Image",
+                    "id": "c2169116-2239-46d9-8be8-16dc660bb793",
+                    "label": "life_bg_2",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Carrot_Life_Minus"
+                    },
+                    "x": 933,
+                    "y": 211,
+                    "tintFill": true
+                },
+                {
+                    "type": "Image",
+                    "id": "6d6bd2c3-90d7-49aa-a06c-71d0e42e8ac1",
+                    "label": "life_bg_3",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Carrot_Life_Minus"
+                    },
+                    "x": 1015,
+                    "y": 211,
+                    "tintFill": true
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "704c7d8a-3abe-4416-9b9a-daf2d036a006",
+            "label": "container_notColleted",
+            "scope": "CLASS",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "96579cf6-ea90-40ba-b4e2-d357679c2457",
+                    "label": "life_1",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Carrot\u0010\u0010_Life"
+                    },
+                    "x": 851,
+                    "y": 210,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "b60b9ee4-dfd7-41d1-a4af-d43ed62ec645",
+                    "label": "life_2",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Carrot\u0010\u0010_Life"
+                    },
+                    "x": 933,
+                    "y": 210,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "86fdbefd-f2b1-4e12-bc84-a33b627ae443",
+                    "label": "life_3",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Carrot\u0010\u0010_Life"
+                    },
+                    "x": 1015,
+                    "y": 210,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "5330966c-7e7a-4cae-a27b-8550e444eb12",
+            "label": "scoreContainer",
+            "scope": "CLASS",
+            "components": [],
+            "x": 272.5216879588149,
+            "y": 99.41042705415889,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "d9a8c968-53e8-43e3-b617-cbf74e302aab",
+                    "label": "score_Board_Base",
+                    "components": [],
+                    "texture": {
+                        "key": "score_Board_Base"
+                    },
+                    "x": 10.47831204118512,
+                    "y": 0.5895729458411125,
+                    "scaleX": 1.7,
+                    "scaleY": 1.7
+                },
+                {
+                    "type": "Text",
+                    "id": "45f9bc77-01e8-44e1-8d1d-f2841665fbf0",
+                    "label": "score_txt",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 20.47831204118512,
+                    "y": -0.41042705415888747,
+                    "scaleX": 1.1,
+                    "scaleY": 1.1,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "score : 3",
+                    "fontFamily": "angerpoiselampshade",
+                    "fontSize": "45px",
+                    "stroke": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "34c8576e-7aa8-46b5-9321-e56c923b3a65",
+                    "label": "leaf",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Leaf"
+                    },
+                    "x": -134.52168795881488,
+                    "y": -2.4104270541588875,
+                    "scaleX": 1.7,
+                    "scaleY": 1.7
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

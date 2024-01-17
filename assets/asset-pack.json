@@ -1,0 +1,280 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/Game_Play/background.png",
+                "type": "image",
+                "key": "background"
+            },
+            {
+                "url": [
+                    "assets/sounds/backgroundSJ.mp3"
+                ],
+                "type": "audio",
+                "key": "backgroundSJ"
+            },
+            {
+                "url": "assets/Game_Play/blastPartical.png",
+                "type": "image",
+                "key": "blastPartical"
+            },
+            {
+                "url": "assets/bunny.png",
+                "type": "image",
+                "key": "bunny"
+            },
+            {
+                "url": [
+                    "assets/sounds/buttonClick.wav"
+                ],
+                "type": "audio",
+                "key": "buttonClick"
+            },
+            {
+                "url": "assets/carrot.png",
+                "type": "image",
+                "key": "carrot"
+            },
+            {
+                "url": [
+                    "assets/sounds/carrot_collect.mp3"
+                ],
+                "type": "audio",
+                "key": "carrot_collect"
+            },
+            {
+                "url": "assets/Game_Play/Carrot\u0010\u0010_Life.png",
+                "type": "image",
+                "key": "Carrot\u0010\u0010_Life"
+            },
+            {
+                "url": "assets/Game_Play/Carrot_Life_Minus.png",
+                "type": "image",
+                "key": "Carrot_Life_Minus"
+            },
+            {
+                "url": "assets/ui/Buttons/Close.png",
+                "type": "image",
+                "key": "Close"
+            },
+            {
+                "url": "assets/cloud.png",
+                "type": "image",
+                "key": "cloud"
+            },
+            {
+                "url": [
+                    "assets/sounds/collideSL.wav"
+                ],
+                "type": "audio",
+                "key": "collideSL"
+            },
+            {
+                "url": "assets/dust.png",
+                "type": "image",
+                "key": "dust"
+            },
+            {
+                "url": "assets/ui/Buttons/Exit.png",
+                "type": "image",
+                "key": "Exit"
+            },
+            {
+                "url": "src/managers/GameManager.js",
+                "type": "script",
+                "key": "GameManager"
+            },
+            {
+                "url": "assets/hero.png",
+                "type": "image",
+                "key": "hero"
+            },
+            {
+                "url": "assets/ui/Buttons/info.png",
+                "type": "image",
+                "key": "info"
+            },
+            {
+                "url": "assets/Leaf.png",
+                "type": "image",
+                "key": "Leaf"
+            },
+            {
+                "url": [
+                    "assets/sounds/levelCompletedSJ.mp3"
+                ],
+                "type": "audio",
+                "key": "levelCompletedSJ"
+            },
+            {
+                "url": [
+                    "assets/sounds/levelFailed.mp3"
+                ],
+                "type": "audio",
+                "key": "levelFailed"
+            },
+            {
+                "url": "assets/Game_Play/Life_Boarc_Base.png",
+                "type": "image",
+                "key": "Life_Boarc_Base"
+            },
+            {
+                "url": "assets/ui/Load-2.png",
+                "type": "image",
+                "key": "Load-2"
+            },
+            {
+                "url": "assets/Game_Play/Loading.png",
+                "type": "image",
+                "key": "Loading"
+            },
+            {
+                "url": "assets/move.png",
+                "type": "image",
+                "key": "move"
+            },
+            {
+                "url": "assets/ui/music-off.png",
+                "type": "image",
+                "key": "music-off"
+            },
+            {
+                "url": "assets/ui/music-on.png",
+                "type": "image",
+                "key": "music-on"
+            },
+            {
+                "url": "assets/Game_Play/Platform/p_1.png",
+                "type": "image",
+                "key": "p_1"
+            },
+            {
+                "url": "assets/Game_Play/Platform/p_2.png",
+                "type": "image",
+                "key": "p_2"
+            },
+            {
+                "url": "assets/Game_Play/Platform/p_3.png",
+                "type": "image",
+                "key": "p_3"
+            },
+            {
+                "url": "assets/Game_Play/Platform/p_4.png",
+                "type": "image",
+                "key": "p_4"
+            },
+            {
+                "url": "assets/Game_Play/Platform/p_5.png",
+                "type": "image",
+                "key": "p_5"
+            },
+            {
+                "url": "src/managers/ParticalManager.js",
+                "type": "script",
+                "key": "ParticalManager"
+            },
+            {
+                "url": "assets/Game_Play/Platform/platform1.png",
+                "type": "image",
+                "key": "platform1"
+            },
+            {
+                "url": "assets/Game_Play/Platform/platform2.png",
+                "type": "image",
+                "key": "platform2"
+            },
+            {
+                "url": "assets/Game_Play/Platform/platform3.png",
+                "type": "image",
+                "key": "platform3"
+            },
+            {
+                "url": "assets/Game_Play/Platform/platform4.png",
+                "type": "image",
+                "key": "platform4"
+            },
+            {
+                "url": "assets/Game_Play/Platform/platform5.png",
+                "type": "image",
+                "key": "platform5"
+            },
+            {
+                "url": "assets/ui/Buttons/Play_btn.png",
+                "type": "image",
+                "key": "Play_btn"
+            },
+            {
+                "url": "assets/ui/Buttons/Replay.png",
+                "type": "image",
+                "key": "Replay"
+            },
+            {
+                "url": "assets/Game_Play/score_Board_Base.png",
+                "type": "image",
+                "key": "score_Board_Base"
+            },
+            {
+                "url": "assets/ui/board/settings.png",
+                "type": "image",
+                "key": "settings"
+            },
+            {
+                "url": "assets/ui/Buttons/Settings.png",
+                "type": "image",
+                "key": "Settings"
+            },
+            {
+                "url": "assets/smoke.png",
+                "type": "image",
+                "key": "smoke"
+            },
+            {
+                "url": "assets/ui/sound.png",
+                "type": "image",
+                "key": "sound"
+            },
+            {
+                "url": "assets/ui/sound_off.png",
+                "type": "image",
+                "key": "sound_off"
+            },
+            {
+                "url": "src/managers/SoundManager.js",
+                "type": "script",
+                "key": "SoundManager"
+            },
+            {
+                "url": "assets/Game_Play/star.png",
+                "type": "image",
+                "key": "star"
+            },
+            {
+                "url": "assets/Game_Play/timerBg.png",
+                "type": "image",
+                "key": "timerBg"
+            },
+            {
+                "url": "assets/Spalsh_Scren/transparent-bg.png",
+                "type": "image",
+                "key": "transparent-bg"
+            },
+            {
+                "url": "src/managers/TweenManager.js",
+                "type": "script",
+                "key": "TweenManager"
+            },
+            {
+                "url": "assets/ui/board/you_win.png",
+                "type": "image",
+                "key": "you_win"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

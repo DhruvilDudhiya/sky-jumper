@@ -1,0 +1,38 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/Spalsh_Scren/Load.png",
+                "type": "image",
+                "key": "Load"
+            },
+            {
+                "url": "assets/Spalsh_Scren/loading_Base.png",
+                "type": "image",
+                "key": "loading_Base"
+            },
+            {
+                "url": "assets/Spalsh_Scren/Loading_base1.png",
+                "type": "image",
+                "key": "Loading_base1"
+            },
+            {
+                "url": "assets/Spalsh_Scren/logo.png",
+                "type": "image",
+                "key": "logo"
+            },
+            {
+                "url": "assets/Game_Play/transparent-bg1.png",
+                "type": "image",
+                "key": "transparent-bg1"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

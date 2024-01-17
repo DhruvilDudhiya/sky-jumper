@@ -1,0 +1,239 @@
+@font-face {
+    font-family: 'boldRegular';
+    src: url('assets/font/boldRegular.ttf');
+}
+
+@font-face {
+    font-family: 'angerpoiselampshade';
+    src: url('assets/font/angerpoiselampshade.ttf');
+}
+
+body {
+    background-image: url(assets/Game_Play/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+div {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+canvas {
+    position: relative;
+    z-index: 10;
+}
+
+.cloud1 {
+    position: absolute;
+    top: -55px;
+    opacity: 0.7;
+    animation: linear infinite;
+    animation-name: cloud1;
+    animation-duration: 85s;
+    overflow: hidden;
+    width: 100%;
+    max-width: 350px;
+}
+
+@keyframes cloud1 {
+    0% {
+        left: 20%;
+    }
+
+    75% {
+        left: 105%;
+    }
+
+    76% {
+        left: 106%;
+        visibility: hidden;
+    }
+
+    79% {
+        left: -10%;
+        visibility: hidden;
+    }
+
+    80% {
+        left: -9%;
+        visibility: visible;
+    }
+
+    100% {
+        left: 20%;
+    }
+}
+
+.cloud2 {
+    position: absolute;
+    top: 40%;
+    opacity: 0.9;
+    animation: linear infinite;
+    animation-name: cloud2;
+    animation-duration: 35s;
+    overflow: hidden;
+    width: 100%;
+    max-width: 250px;
+}
+
+@keyframes cloud2 {
+    0% {
+        left: 75%;
+    }
+
+    25% {
+        left: 105%;
+    }
+
+    26% {
+        left: 106%;
+        visibility: hidden;
+    }
+
+    27% {
+        left: -20%;
+        visibility: hidden;
+    }
+
+    28% {
+        left: -19%;
+        visibility: visible;
+    }
+
+    100% {
+        left: 75%;
+    }
+}
+
+.cloud3 {
+    position: absolute;
+    top: 75%;
+    opacity: 0.9;
+    animation: linear infinite;
+    animation-name: cloud3;
+    animation-duration: 65s;
+    overflow: hidden;
+    width: 100%;
+    max-width: 170px;
+}
+
+@keyframes cloud3 {
+    0% {
+        left: 0%;
+    }
+
+    90% {
+        left: 105%;
+    }
+
+    91% {
+        left: 106%;
+        visibility: hidden;
+    }
+
+    92% {
+        left: -10%;
+        visibility: hidden;
+    }
+
+    93% {
+        left: -9%;
+        visibility: visible;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
+.flower {
+    position: absolute;
+    width: 100%;
+    max-width: 180px;
+    bottom: -50px;
+    animation: linear infinite;
+    animation-name: flower;
+    animation-duration: 3s;
+    overflow: hidden;
+    transform-origin: bottom center;
+    z-index: 1;
+}
+
+.flower1 {
+    left: 20px;
+}
+
+.flower2 {
+    right: 20px;
+}
+
+@keyframes flower {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: bottom center;
+    }
+
+    25% {
+        transform: rotate(10deg);
+        transform-origin: bottom center;
+    }
+
+    75% {
+        transform: rotate(-10deg);
+        transform-origin: bottom center;
+    }
+
+    100% {
+        transform: rotate(0deg);
+        transform-origin: bottom center;
+    }
+}
+
+
+
+@media only screen and (min-width: 1420px) {
+    body {
+        background-image: url(assets/Game_Play/background.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 576px) and (max-width : 767px) {
+    .cloud1 {
+        max-width: 250px;
+        top: -35px;
+    }
+
+    .cloud2 {
+        top: 280px;
+        max-width: 200px;
+    }
+}
+
+@media (max-width : 575px) {
+    .cloud1 {
+        max-width: 250px;
+        top: -35px;
+    }
+
+    .cloud2 {
+        top: 280px;
+        max-width: 200px;
+    }
+
+    .flower{
+        max-width: 120px;
+    }
+}
